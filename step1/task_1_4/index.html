@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task_1_4</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		html,body{
+			height: 100%;
+		}
+
+		.main{
+			background:#ccc;
+			height: 200px;
+			width: 400px;
+			position: relative;
+			top: 50%;
+			left: 50%;
+			margin:-100px 0 0 -200px;
+		}
+		.cir{
+			width: 50px;
+			height: 50px;
+			background:#fc0;
+		}
+		.cirLT{
+			border-radius:0 0 50px 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.cirRB{
+			border-radius:50px 0 0 0;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="cir cirLT"></div>
+		<div class="cir cirRB"></div>
+	</div>
+</body>
+</html>
